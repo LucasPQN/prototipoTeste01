@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 900px;
+    background-color: #E2E7E9;
+    background-image: url(Group\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 650px 600px;
+    background-position-x: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    color: #8A9EA8;
+}
+
+h2 {
+    margin-left: 60px;
+    font-weight: 900;
+    font-size: 75px;
+    color: #2B363B;
+}
+
+strong {
+    color: #7B61FF;
+}
+
+#ptitulo {
+   margin-left: 330px;
+   font-size: 50px;
+   line-height: 10px;
+}
+
+#titulo > h3 {
+    margin-left: 60px;
+    padding: 8px;
+    font-size: 21px;
+}
+
+nav {
+    border: dashed  2px #7B61FF;
+    border-radius: 7px;
+    margin: 0px 0 0 65px;
+}
+
+nav > a {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+a {
+    border: solid 2px #E2E7E9;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: 450px;
+    height: 60px;
+    justify-content: center;
+    text-indent: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+ 
+#menu {
+    display: flex;;
+}
+
+aside {
+    flex-direction: column;
+    margin-top: 265px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#nome {
+    text-indent: 12px;
+    color: rgb(121, 121, 121);
+}
+
+#sublinhado {
+    text-decoration: underline;
+    color: rgb(87, 87, 87);
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+
+
